@@ -7,6 +7,7 @@ import RatioInput from './RatioInput'
 import { equationIsValid, parseValues, solveForA, solveForB, solveForC, solveForD } from './functions'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
+import "./firebase"
 
 function App() {
 	const [values, setValues] = useState({ a: "", b: "", c: "", d: "" })
