@@ -1,0 +1,25 @@
+.ratios-container {
+	flex: 1;
+	font-size: 1.5em;
+	display: grid;
+	grid-template-columns: min-content min-content min-content;
+	justify-items: center;
+	justify-content: center;
+	align-items: center;
+	gap: .5em;
+
+	@media (max-width: 700px) {
+		grid-template-columns: min-content;
+		gap: 1em;
+	}
+
+	img {
+		height: 1em;
+		opacity: .8;
+	}
+
+	.ratio-pair {
+		display: flex;
+		align-items: center;
+	}	
+}

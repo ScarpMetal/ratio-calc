@@ -1,0 +1,57 @@
+:root {
+	font-family: 'Courier New', Courier, monospace;
+	line-height: 1.5;
+	font-weight: 400;
+
+	color-scheme: light dark;
+	color: rgba(255, 255, 255, 0.87);
+	background-color: #242424;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-align: center;
+
+	--toastify-toast-min-height: 1em;
+	--toastify-toast-width: 14em;
+}
+
+h1 {
+	margin-block-end: 1.67em;
+}
+
+body {
+	position: relative;
+	margin: 0;
+	width: 100vw;
+	width: 100dvw;
+	height: 100vh;
+	height: 100dvh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#root {
+	display: grid;
+	grid-template-rows: 6em 1fr 6em;
+	align-items: center;
+	padding: 1em;
+}
+
+.copyright {
+	position: absolute;
+	color: #aaa;
+	bottom: 1em;
+
+}
+
+input {
+	font-family: inherit;
+}
+
+* {
+	box-sizing: border-box;
+}
